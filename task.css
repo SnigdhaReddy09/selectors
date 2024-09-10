@@ -1,0 +1,83 @@
+.parent1{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.left{
+    margin-left: 5px;
+}
+.right{
+    display: flex;
+    margin-left:70%;
+    gap: 30px;
+}
+button{
+    background-color:black;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: grey;
+}
+.parent2{
+    display: flex;
+    color: black;
+    padding: 5px 10px;
+    height: 250px;
+}
+.main{
+    flex: 3;
+    background-image:linear-gradient(to right, yellow,orange, crimson);
+    padding: 0px 10px;
+    position: relative;
+}
+.main img{
+    float: left;
+    margin-right: 10px;
+}
+.side{
+    flex: 1;
+    background-image: radial-gradient(circle, pink, lightblue);
+    padding: 5px;
+}
+.img{
+    background-color: gainsboro;
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p3{
+    display: flex;
+    gap: 10px;
+}
+.i1{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 10px;
+    padding: 5px;
+}
+.t{
+    width: 100%;
+}
+button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+h4{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
